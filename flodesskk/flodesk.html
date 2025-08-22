@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flow.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<style>
+    .karan{
+        background-color: white;
+        font-size: 1.7em;
+        position: relative;
+        top: -370px;
+        left: 740px;
+        border: none;
+        cursor: pointer;
+        color: rgb(96, 91, 91);
+    }
+</style>
+<body>
+
+<div>
+    <h1>Flodesk</h1>
+    <p class="text1">Welcome back!</p>
+</div>
+<form>
+<div class="prime">
+    <div class=""><input type="email"     class="prime1" placeholder="Enter your email"/></div>
+    <div class=""><input type="password"  class="prime2" placeholder="password"/></div>
+    <div class=""><input type="submit"    class="prime3" value="Log in to Flodesk"/></div>
+    <pre class="sm1">Not a member?  <a class="sm2"href="">Sign up</a></pre>
+    <p><a class="sm3" href="">Forgot your password</a></p>
+     <pre class="sem5">By continuing, you agree to Flodesk's terms
+and acknowledge you've read our privacy policy.
+    </pre>
+</div>
+</form>
+<button class="karan" id="btn" onclick="changepassword()"><i class="ri-eye-off-line"></i></button>
+</body>
+<script>
+    function changepassword(){
+          let a = document.querySelector(".prime2")
+  if(a.type ==="password"){
+a.type="text"
+let b = document.querySelector("#btn")
+b.innerHTML=`<i class="ri-eye-line"></i>`
+  }else{
+    a.type="password"
+    let b = document.querySelector("#btn")
+    b.innerHTML=`<i class="ri-eye-off-line"></i>`
+  }
+    }
+
+</script>
+</html>

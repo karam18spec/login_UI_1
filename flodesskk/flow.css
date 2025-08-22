@@ -1,0 +1,87 @@
+h1{
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 10px;
+}
+.text1{
+    color:black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.prime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+.prime1{
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 10px;
+    padding-top:1.5em ;
+    padding-right:10em ;
+    padding-bottom:1.5em ;
+    padding-left:2em ;
+
+    
+}
+
+input[type="email"]::placeholder{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+
+}
+.prime2{
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 10px;
+    padding-top:1.5em ;
+    padding-right:10em ;
+    padding-bottom:1.5em ;
+    padding-left:2em ;
+    
+}
+input[type="password"]::placeholder{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+.prime3{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    border-radius: 50px;
+    text-align: center;
+    padding-top:1.2em ;
+    padding-right:3em ;
+    padding-bottom:1.2em ;
+    padding-left:3em;
+    margin-top: 1.5em;
+    transition: transform 0.3s;
+
+}.prime3:hover{
+    transform: scale(1.1);
+    opacity: 0.9;
+    cursor: pointer;
+}
+.sm1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(114, 113, 113);
+}
+.sm2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: black;
+}
+.sm3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin-bottom: -30px;
+}
+.sem5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: rgb(114, 113, 113);
+}
